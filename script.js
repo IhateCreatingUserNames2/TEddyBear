@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const stopButton = document.getElementById('stopButton');
 
     // --- Configuration ---
-    const SERVER_URL = 'https://your-app-name.onrender.com/process-audio'; // OR http://localhost:3000/process-audio for local
+    const SERVER_URL = 'https://teddybear-1.onrender.com/process-audio';
     const SAMPLE_RATE = 16000;
     const SILENCE_THRESHOLD = 0.01; // Normalized - adjust this! (0.0 to 1.0)
     const SPEECH_TIMEOUT_MS = 1500; // Time of silence before sending
